@@ -1,0 +1,166 @@
+
+*{
+    margin: 0px;
+}
+body{
+    font-style: italic;
+}
+.bar{
+    overflow: hidden;
+    background-color: black;
+    
+}
+a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+}
+a:hover{
+    color: #5c63dc;
+}
+
+h1.Portfolio{
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    text-shadow: 4px 4px #1a1c49;
+}
+
+
+#Home,#Aboutme{
+    height: 1000px;
+}
+
+#Home{
+    background-image: url(img/me.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Aboutme{
+    background-color: #1a1c49;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+}
+
+.ab-con{
+    background-color: #1a1c49;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.ab-item{
+    margin: auto;
+    height: auto;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.abnameEN {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 4px 4px #1a1c49;
+}
+.abpic{
+    border: 6px solid #9da1ec;
+    border-radius: 100%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-bottom: 10px;
+}
+.myabme{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.edu{
+    border-left: 2px solid #eeeeee;
+    margin-left: 50px;
+}
+.program{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#Contact{
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a.text{
+    color: black;
+}
+.text:hover{
+    color: #5c63dc;
+}
+a.contact{
+    margin: 10px;
+}
+.skills{
+    display: grid;
+    background-color: #1a1c49;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.imgskill{
+    background-size: cover;
+}
+.imgskill2{
+    padding-top: 10px;
+}
+.imgskill3{
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+
+.iskill{
+    height: 100px; 
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    padding: 1px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+/*
+background-image: url(img/me.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+*/
